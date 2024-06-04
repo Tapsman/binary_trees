@@ -8,7 +8,7 @@
  * @value: The value the new node will be stored in
  * Return: NULL on failure or new node
  */
-binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
+binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {
 	binary_tree_t *new_node;
 
