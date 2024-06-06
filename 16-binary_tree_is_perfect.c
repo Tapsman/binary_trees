@@ -31,14 +31,14 @@ int tree_is_perfect(const binary_tree_t *tree)
 			}
 		}
 		return (0);
-		else if (!tree->left && !tree->right)
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
+	}
+	else if (!tree->left && !tree->right)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
 	}
 }
 /**
