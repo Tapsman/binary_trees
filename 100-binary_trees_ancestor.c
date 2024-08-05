@@ -1,9 +1,9 @@
 #include "binary_trees.h"
 /**
- * binary_trees_ancestor This is a function that finds the lowest
+ * binary_trees_ancestor - This is a function that finds the lowest
  * common factor of two nodes
  * @first: Is the pointer to the first node
- * @second Is the pointer to the second node that will find ancestor
+ * @second: Is the pointer to the second node that will find ancestor
  * Return: a pointer to second node to find the ancestor.
  */
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
@@ -37,7 +37,8 @@ binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 	return ((binary_tree_t *)first);
 }
 /**
- * binary_tree_depth - this is a function that will measure the depth of the node
+ * binary_tree_depth - this is a function that will measure the depth
+ * of the node
  * @tree: The node that will combine the depth of the node
  * Return: The depth, provided zero is NULL.
  */
